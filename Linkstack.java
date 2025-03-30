@@ -76,6 +76,7 @@ public class Linkstack {
                 }
                 int get = sLinkStack.popGet();
                 System.out.println(get);
+                break;
 
             }
 
