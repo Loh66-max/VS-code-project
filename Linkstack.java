@@ -25,12 +25,10 @@ class LinkStack {
         return false;
     }
 
-
-
     public boolean push(int insertNum) {
-        
+
         Node newInsert = new Node(insertNum, first.next);
-        first.next=newInsert;
+        first.next = newInsert;
         length++;
         return true;
     }
@@ -78,11 +76,11 @@ public class Linkstack {
                 }
                 int get = sLinkStack.popGet();
                 System.out.println(get);
-                
+
             }
-            
 
         }
 
+        sc.close();
     }
 }
